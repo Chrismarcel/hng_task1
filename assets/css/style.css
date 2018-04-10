@@ -1,0 +1,56 @@
+body {
+    background: #14ACF2;
+    font-family: Montserrat, 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.top-bar {
+    background: #FFFFFF;
+    border-bottom: 2px solid #EBEBEB;
+}
+
+.top-bar .nav {
+    padding: 25px;
+    margin: 0 100px;
+}
+
+.hng-logo, .current-time {
+    display: inline-block;
+}
+
+.current-time {
+    color: #14ACF2;
+    float: right;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.list-body {
+    color: #FFFFFF;
+    margin: 0 25%;
+}
+
+.task-list h4 {
+    font-size: 42px;
+    border-bottom: 3px solid #FFFFFF;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.task-list ul {
+    list-style: none;
+    font-size: 20.7px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.task-list ul li {
+    margin-bottom: 15px;
+}
